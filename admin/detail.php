@@ -266,7 +266,7 @@ $data=mysql_fetch_assoc($sql);
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Dwi Lestari Manajemen Informatika Unila</a>
+            Sistem Informasi Kepegawaian </a>
           </div>
           <div class="clearfix"></div>
         </footer>
