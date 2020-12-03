@@ -115,7 +115,7 @@
          <div class="">
             <div class="page-title">
               
-                <h3> Data Cuti Bapelkes Provinsi Lampung</h3>
+                <h3> Data Cuti</h3>
                  <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.php">Beranda</a>
@@ -214,7 +214,7 @@
         <!-- footer content -->
          <footer>
           <div class="pull-right">
-            Dwi Lestari Manajemen Informatika Unila</a>
+            Sistem Informasi Kepegawaian </a>
           </div>
           <div class="clearfix"></div>
         </footer>
