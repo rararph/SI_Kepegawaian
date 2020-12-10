@@ -49,11 +49,11 @@
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
                 <h3>Kabag.Kepegawaian</h3>
-				
+        
                 <ul class="nav side-menu">
                   <li><a class="nav-link" href="index.php"><i class="fa fa-home"></i> Beranda</span></a>
-				  
-				  <li><a class="nav-link" href="user.php"><i class="fa fa-users"></i> Data User </a>
+          
+          <li><a class="nav-link" href="user.php"><i class="fa fa-users"></i> Data User </a>
                     
                   </li>
                     
@@ -110,7 +110,7 @@
          <div class="row">
          <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="page-title">
-			<?php
+      <?php
   
   include('koneksi.php');
   
@@ -141,15 +141,15 @@
                     
                            
                         </div>
-				 
-				  <div class="form-group">
+         
+          <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12"  >NIP <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input class="form-control" maxlength="20" value="<?php echo $data['nip']; ?>" onkeypress="return isNumberKey(event)" type="text" name="nip" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                         </div>
-						
+            
                     <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" >Nama Pegawai <span class="required">*</span>
                         </label>
@@ -157,7 +157,7 @@
                           <input class="form-control" value="<?php echo $data['nama']; ?>" type="text" name ="nama" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                         </div>     
-						
+            
                         <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12"  >Tempat Lahir <span class="required">*</span>
                         </label>
@@ -173,25 +173,25 @@
                           <input class="date-picker form-control col-md-7 col-xs-12" value="<?php echo $data['tanggallahir']; ?>"  type="date" name="tanggallahir" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                         </div>
-						
+            
                          <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Jabatan</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <select class="form-control" name="jabatan">
                             <?php
-												$queryjabatan = mysql_query( "SELECT * FROM jabatan");
-												if($queryjabatan == false){
-													//die ("Terdapat Kesalahan : ". mysqli_error($konek));	
-												}
-												while($jabatan = mysql_fetch_array($queryjabatan)){
-													if($jabatan[1]==$data['jabatan']){
-													echo "<option selected value='$jabatan[1]'>$jabatan[1]</option>";
-												}else{echo "<option value='$jabatan[1]'>$jabatan[1]</option>";}
-												}
-											?>
-							
-							
-							<?php /*
+                        $queryjabatan = mysql_query( "SELECT * FROM jabatan");
+                        if($queryjabatan == false){
+                          //die ("Terdapat Kesalahan : ". mysqli_error($konek));  
+                        }
+                        while($jabatan = mysql_fetch_array($queryjabatan)){
+                          if($jabatan[1]==$data['jabatan']){
+                          echo "<option selected value='$jabatan[1]'>$jabatan[1]</option>";
+                        }else{echo "<option value='$jabatan[1]'>$jabatan[1]</option>";}
+                        }
+                      ?>
+              
+              
+              <?php /*
                            if ($jabatan=='Kepala Bapelkes')
                             {
                                   echo "<option selected> Kepala Bapelkes</option>";
@@ -208,8 +208,8 @@
                                 {
                                   echo "<option>Widyaiswara Ahli Madya</option>";
                                 }
-								
-								 if ($jabatan=='Widyaiswara Ahli Muda')
+                
+                 if ($jabatan=='Widyaiswara Ahli Muda')
                             {
                                   echo "<option selected> Widyaiswara Ahli Muda</option>";
                                 }
@@ -217,8 +217,8 @@
                                 {
                                   echo "<option>Widyaiswara Ahli Muda</option>";
                                 }
-								
-								if ($jabatan=='Kasubag TU')
+                
+                if ($jabatan=='Kasubag TU')
                             {
                                   echo "<option selected> Kasubag TU</option>";
                                 }
@@ -226,8 +226,8 @@
                                 {
                                   echo "<option>Kasubag TU</option>";
                                 }
-								
-								if ($jabatan=='JFU Pemroses Data Kepegawaian Subag. TU')
+                
+                if ($jabatan=='JFU Pemroses Data Kepegawaian Subag. TU')
                             {
                                   echo "<option selected>JFU Pemroses Data Kepegawaian Subag. TU</option>";
                                 }
@@ -235,8 +235,8 @@
                                 {
                                   echo "<option>JFU Pemroses Data Kepegawaian Subag. TU</option>";
                                 }
-								
-								if ($jabatan=='Kasie Pengendalian Mutu Diklat')
+                
+                if ($jabatan=='Kasie Pengendalian Mutu Diklat')
                             {
                                   echo "<option selected>Kasie Pengendalian Mutu Diklat</option>";
                                 }
@@ -244,8 +244,8 @@
                                 {
                                   echo "<option>Kasie Pengendalian Mutu Diklat</option>";
                                 }
-								
-								if ($jabatan=='JFU Pengumpul dan Penyusun  Data Perpustakaan PD')
+                
+                if ($jabatan=='JFU Pengumpul dan Penyusun  Data Perpustakaan PD')
                             {
                                   echo "<option selected>JFU Pengumpul dan Penyusun  Data Perpustakaan PD</option>";
                                 }
@@ -253,8 +253,8 @@
                                 {
                                   echo "<option>JFU Pengumpul dan Penyusun  Data Perpustakaan PD</option>";
                                 }
-								
-								if ($jabatan=='Bendahara Pembantu Penerimaan')
+                
+                if ($jabatan=='Bendahara Pembantu Penerimaan')
                             {
                                   echo "<option selected>Bendahara Pembantu Penerimaan</option>";
                                 }
@@ -262,8 +262,8 @@
                                 {
                                   echo "<option>Bendahara Pembantu Penerimaan</option>";
                                 }
-								
-								if ($jabatan=='Pengolah Dan Penganalisis Data Pengembangan Diklat')
+                
+                if ($jabatan=='Pengolah Dan Penganalisis Data Pengembangan Diklat')
                             {
                                   echo "<option selected>Pengolah Dan Penganalisis Data Pengembangan Diklat</option>";
                                 }
@@ -271,8 +271,8 @@
                                 {
                                   echo "<option>Pengolah Dan Penganalisis Data Pengembangan Diklat</option>";
                                 }
-								
-								if ($jabatan=='JFU Pemroses Data PMD')
+                
+                if ($jabatan=='JFU Pemroses Data PMD')
                             {
                                   echo "<option selected>JFU Pemroses Data PMD</option>";
                                 }
@@ -280,13 +280,13 @@
                                 {
                                   echo "<option>JFU Pemroses Data PMD</option>";
                                 }
-								
-						*/
+                
+            */
                             ?>
                           </select>
                         </div>
                       </div>
-						
+            
                         <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Jenis Kelamin</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
@@ -300,7 +300,7 @@
                           </div>
                         </div>
                       </div>
-					  
+            
                         <div class="form-group" >
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Agama</label>
                         <div class="col-md-6 col-sm-6 col-xs-12" >
@@ -338,7 +338,7 @@
                                 {
                                   echo "<option>Hindu</option>";
                                 }
-								if ($data['agama']=='Katolik')
+                if ($data['agama']=='Katolik')
                                 {
                                   echo "<option selected>Katolik</option>";
                                 }
@@ -351,7 +351,7 @@
                         </div>
                       </div>
 
-					  
+            
                       <div class="form-group" >
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Status Pegawai</label>
                         <div class="col-md-6 col-sm-6 col-xs-12" >
@@ -377,9 +377,9 @@
                           </select>
                           </div>
                           </div>
-						 
-						 
-						 <div class="form-group" >
+             
+             
+             <div class="form-group" >
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Status Hubungan</label>
                         <div class="col-md-6 col-sm-6 col-xs-12" >
                           <select class="form-control" name = "status_hubungan">
@@ -404,7 +404,7 @@
                           </select>
                           </div>
                           </div>
-						 
+             
                           <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Golongan</label>
                         <div class="col-md-6 col-sm-6 col-xs-12" >
@@ -535,8 +535,8 @@
                           </select>
                         </div>
                       </div>
-					  
-					  
+            
+            
                        <div class="form-group" >
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Pendidikan Umum</label>
                         <div class="col-md-6 col-sm-6 col-xs-12" >
@@ -558,7 +558,7 @@
                                 {
                                   echo "<option>SMP</option>";
                                 }
-								if ($data['pend_umum']=='SMA/SMK/MA')
+                if ($data['pend_umum']=='SMA/SMK/MA')
                                 {
                                   echo "<option selected>SMA/SMK/MA</option>";
                                 }
@@ -570,7 +570,7 @@
                           </select>
                           </div>
                           </div>
-						  
+              
                       <div class="form-group" >
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Pendidikan Jenjang</label>
                         <div class="col-md-6 col-sm-6 col-xs-12" >
@@ -592,7 +592,7 @@
                                 {
                                   echo "<option>S1</option>";
                                 }
-								if ($data['pend_jenjang']=='S2')
+                if ($data['pend_jenjang']=='S2')
                                 {
                                   echo "<option selected>S2</option>";
                                 }
@@ -600,7 +600,7 @@
                                 {
                                   echo "<option>S2</option>";
                                 }
-								if ($data['pend_jenjang']=='S3')
+                if ($data['pend_jenjang']=='S3')
                                 {
                                   echo "<option selected>S3</option>";
                                 }
@@ -612,8 +612,8 @@
                           </select>
                           </div>
                           </div>
-						
-					  
+            
+            
                     <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" >nohp <span class="required">*</span>
                         </label>
@@ -621,8 +621,8 @@
                           <input class="form-control" value="<?php echo $data['nohp']; ?>" type="text" name ="nohp" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                         </div>
-						
-						
+            
+            
                     <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" >email <span class="required">*</span>
                         </label>
@@ -635,7 +635,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                           <button type="submit" name ="simpan" class="btn btn-success">Simpan</button>
                            <button type="reset" value ="kembali" class="btn btn-default" onclick="self.history.back()">Batal</button>
-						  
+              
                           <a href="pegawai.php">
                           </a>
                         </div>
@@ -649,7 +649,6 @@
 
         
         <!-- /page content -->
-
 
       </div>
     </div>
