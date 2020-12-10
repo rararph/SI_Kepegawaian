@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="../production/images/logo.png">
+  <link rel="icon" type="image/png" href="../production/images/bg.png">
     <title>Sistem Informasi Kepegawaian</title>
 
     <!-- Bootstrap -->
@@ -31,7 +31,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-               <img src="../production/images/bpl.png" width="70" height="55" style="float:left"/><a class="navbar-brand" href="index.php">SIMPEG</a>
+               <img src="../production/images/bg.png" width="70" height="55" style="float:left"/><a class="navbar-brand" href="index.php">S.I.K.P</a>
             </div>
 
             <div class="clearfix"></div>
@@ -43,7 +43,7 @@
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
-                <h2>Dwi Lestari</h2>
+                <h2>Rara</h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -98,7 +98,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/user.png" alt="">dwi lestari
+                    <img src="images/user.png" alt="">Rara
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -141,7 +141,7 @@
           <div class="">
             <div class="page-title">
               <div class="title_left">
-               <h3>Balai Pelatihan Kesehatan (BAPELKES) Provinsi Lampung</h3>
+               <h3>Sistem Informasi Kepegawaian</h3>
               </div>
 
              

@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="../admin/images/logo.png">
+	<link rel="icon" type="image/png" href="../admin/images/bg.png">
     <title>Si Kepegawaian</title>
 
     <!-- Bootstrap -->
@@ -30,7 +30,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-               <img src="../admin/images/logo.png" width="65" height="60" style="float:left"/><a class="navbar-brand" href="index.php">SIMPEG</a>
+               <img src="../admin/images/bg.png" width="65" height="60" style="float:left"/><a class="navbar-brand" href="index.php">S.I.K.P</a>
             </div>
 
             <div class="clearfix"></div>
@@ -40,7 +40,7 @@
               
               <div class="profile_info">
                 <center><h2>Welcome,</h2>
-                <h2><big><font color='red'>Endang Sugiarti</font></h2></big>
+                <h2><big><font color='red'>Admin</font></h2></big>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -263,14 +263,7 @@ $data=mysql_fetch_assoc($sql);
 		
         <!-- /page content -->
 
-        <!-- footer content -->
-        <footer>
-          <div class="pull-right">
-            Sistem Informasi Kepegawaian </a>
-          </div>
-          <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
+       
       </div>
 
     </div>

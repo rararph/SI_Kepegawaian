@@ -90,3 +90,11 @@ vendors/Flot/examples/axes-time-zones/tz/solar89
 vendors/font-awesome/.npmignore
 *.js
 *.js
+*.js
+*.php
+*.php
+*.php
+*.php
+*.png
+*.html
+*.css

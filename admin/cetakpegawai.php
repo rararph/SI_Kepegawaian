@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="../admin/images/logo.png">
+  <link rel="icon" type="image/png" href="../admin/images/bg.png">
     <title>Sistem Informasi Kepegawaian </title>
 
     <!-- Bootstrap -->
@@ -29,10 +29,9 @@ include 'inc_lib.php';
 ?>
 <section class="content">
             <div class="text-center">
-			<h2><p align="center"><b>UPTD BALAI PELATIHAN KESEHATAN (BAPELKES) PROVINSI LAMPUNG</b></p></h2>
-			<h2><p align="center"><b>Jl.Soekarno-Hatta No.7 tlp.(0721)704550, 787277 fax (0721) 787277</b></p></h2>
+			<h2><p align="center"><b>LAPORAN DATA PEGAWAIAN</b></p></h2>
 			</div><br/>
-<h2>Laporan Data Pegawai Bapelkes Provinsi Lampung</h2>
+<h2>Laporan Data Pegawai</h2>
 <script>
 		window.load = print_d();
 		function print_d(){
@@ -118,7 +117,7 @@ include 'inc_lib.php';
 	<tr>
 		<th width="250"></th>
 		<th width="450"></th>
-		<th width="450">KEPALA BALAI PELATIHAN KESEHATAN PROVINSI LAMPUNG</th>
+		<th width="450">KEPALA BAGIAN KEPEGAWAIAN</th>
 	</tr>
 	
 </table>
@@ -129,14 +128,14 @@ include 'inc_lib.php';
 			<tr><u>
 			 <th width="500"></th>
 			<th width="750"></th>
-			<th width="550">Drg.Mardania, MHSM</th>
+			<th width="550">Rahmi Permata Hati</th>
 			</tr></u>
 			
 			</thead>
 			<tr>
 			<th width="500"></th>
 			<th width="750"></th>
-			<th width="550">NIP.196403121989022001</th>
+			<th width="550">NIP.1717051080</th>
 			</tr>
 	
 </table>

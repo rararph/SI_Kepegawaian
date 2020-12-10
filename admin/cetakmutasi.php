@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="../admin/images/logo.png">
+  <link rel="icon" type="image/png" href="../admin/images/bg.png">
     <title>Sistem Informasi Kepegawaian </title>
 
     <!-- Bootstrap -->
@@ -31,7 +31,7 @@ include 'inc_lib.php';
 <tr>
 		<tbody><tr>
 			<td><img src="./images/logo.png" height="80"></td>
-				<td align="center" style="font-weight:bold">BALAI PELATIHAN KESEHATAN PROVINSI LAMPUNG<br>  Jl.Soekarno-Hatta No.7 tlp.(0721)704550, 787277 fax (0721) 787277<br> BANDAR LAMPUNG<br><br>
+				<td align="center" style="font-weight:bold">LAPORAN DATA MUTASI PEGAWAI<br>  
 				</td>
 			</tr></tbody>
 <td colspan="3" style="border-bottom:1px solid black">
@@ -39,7 +39,7 @@ include 'inc_lib.php';
 </td>
 </tr>
 </table>
-<br><br><br><h2>Laporan Data Mutasi Bapelkes Provinsi Lampung</h2></br>
+<br><br><br><h2>Laporan Data Mutasi</h2></br>
 <script>
 		window.load = print_d();
 		function print_d(){
@@ -120,9 +120,9 @@ include 'inc_lib.php';
 		</tr>
 	</thead>
 	<tr>
-		<th width="250">KABAG. BAGIAN KEPEGAWAIAN BAPELKES</th>
+		<th width="250">KEPALA BAGIAN KEPEGAWAIAN</th>
 		<th width="450"></th>
-		<th width="450">KEPALA BALAI PELATIHAN KESEHATAN PROVINSI LAMPUNG</th>
+		<th width="450">KEPALA</th>
 	</tr>
 	
 </table>
@@ -131,16 +131,16 @@ include 'inc_lib.php';
 
 			<thead>	
 			<tr><u>
-			 <th width="500">Endang Sugiarti, S.Sos</th>
+			 <th width="500">Rahmi Permata Hati</th>
 			<th width="750"></th>
-			<th width="550">Drg.Mardania, MHSM</th>
+			<th width="550">Hot Maharani Saragih</th>
 			</tr></u>
 			
 			</thead>
 			<tr>
-			<th width="500">NIP.196712221988032001</th>
+			<th width="500">NIP.1717051080</th>
 			<th width="750"></th>
-			<th width="550">NIP.196403121989022001</th>
+			<th width="550">NIP.1717051077</th>
 			</tr>
 	
 </table>

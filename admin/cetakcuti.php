@@ -209,7 +209,7 @@ $data=mysql_fetch_assoc($sql);
 <tr>
 		<tbody><tr>
 			<td><img src="./images/logo.png" height="80"></td>
-				<td align="center" style="font-weight:bold">BALAI PELATIHAN KESEHATAN PROVINSI LAMPUNG<br>  Jl.Soekarno-Hatta No.7 tlp.(0721)704550, 787277 fax (0721) 787277<br> BANDAR LAMPUNG<br><br>
+				<td align="center" style="font-weight:bold">LAPORAN DATA CETAK CUTI PEGAWAI<br>  
 				</td>
 			</tr></tbody>
 <td colspan="3" style="border-bottom:1px solid black">
@@ -287,12 +287,12 @@ $end = date('d-m-Y', strtotime($data['tgl_akhir']));
 <tr><td width='50px'></td><td><br></td></tr>
 <tr>
 <td width='50px'></td>
-<td width="500px">Kepala Balai Pelatihan Kesehatan<br>
+<td width="500px">KEPALA<br>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Provinsi Lampung<br>
 <br>
 <br>
-<b><u>drg. Mardiana MHSM</u><br>
-<b>NIP. 19640312 198902 2001
+<b><u>Hot Maharani Saragih</u><br>
+<b>NIP.1717051077
 </td>
 
 </tr>

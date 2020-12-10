@@ -10,7 +10,7 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="../admin/images/logo.png">
+    <link rel="icon" type="image/png" href="../admin/images/bg.png">
     <title>Sistem Informasi Kepegawaian </title>
 
     <!-- Bootstrap -->
@@ -32,7 +32,7 @@ session_start();
         <div class="col-md-3 left_col menu_fixed">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-            <img src="../admin/images/bpl.png" width="65" height="60" style="float:left"/><a class="navbar-brand" href="index.php">SIMPEG</a>
+            <img src="../admin/images/bg.png" width="65" height="60" style="float:left"/><a class="navbar-brand" href="index.php">S.I.K.P</a>
             </div>
 
             <div class="clearfix"></div>
@@ -41,7 +41,7 @@ session_start();
             
               <div class="profile_info">
                 <center><h2>Welcome,</h2>
-                <h2><big><font color='red'>Endang Sugiarti</font></h2></big>
+                <h2><big><font color='red'>Admin</font></h2></big>
               </div>
             </div>
 			
@@ -122,42 +122,26 @@ session_start();
 			
 			<body bgcolor="ffaa66" leftmargin="200px">
 			
-			<img align="left" src="../admin/images/kop.png" width="100">
-			<img align="right" src="../admin/images/kop.png" width="100">
+			<img align="left" src="../admin/images/logo.png" width="150">
+			<img align="right" src="../admin/images/logo.png" width="150">
 			<p align="center">
 			
 			<br></br>
-			<font size="6" color="black"> Balai Pelatihan Kesehatan Provinsi Lampung
+			<font size="10" color="black"> Sistem Informasi Kepegawaian
 			</br><br></font>
-			<font size="4" color="black"> Jl.Soekarno-Hatta No.7 Tlp.(0721)704550,787277 fax (0721)787277<br>
-			BANDAR LAMPUNG</font>
-			</font>
-			
               
 				<div class="jumbotron">
 				
 				
-                    <p><big><h2><marquee direction="left" scrollamount="6" align="center">Selamat Datang Di Home Admin Sistem Informasi Kepegawaian Balai Pelatihan Kesehatan Provinsi Lampung</marquee></h2>   
+                    <p><big><h2><marquee direction="left" scrollamount="6" align="center">Selamat Datang Di Home Admin Sistem Informasi Kepegawaian, Jangan Lupa Bahagia :)</marquee></h2>   
                         <h5></h5>
-					<center><img src="images/DSC_6787.jpg" width="900" height="400">	
                 <br>
                 </div>
               </div>
             </div>
           </div>
 		  
-		  
-        
         <!-- /page content -->
-
-        <!-- footer content -->
-        <footer>
-          <div class="pull-right">
-            Dwi Lestari Manajemen Informatika Unila</a>
-          </div>
-          <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
       </div>
     </div>
 
